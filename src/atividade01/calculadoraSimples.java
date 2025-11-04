@@ -14,21 +14,27 @@ public class operacoesMatematicas {
         System.out.println("Digite outro numero: ");
         int b = sc.nextInt();
 
+        sc.nextLine();
+
         System.out.println("Digite uma operacao: +, - , *, / ");
         String operacao = sc.nextLine();
 
-        if(operacao == "+"){
+        if(operacao.equals("+")){
             System.out.println("Soma: " + (a + b));
         }
-        else if (operacao == "-"){
+        else if (operacao.equals("-")){
             System.out.println("Subtracao: " + (a - b));
         }
 
+<<<<<<< HEAD:src/atividade01/calculadoraSimples.java
         else if(operacao == "*") {
+=======
+        else if(operacao.equals("*")) {
+>>>>>>> 03412e342c372cebae7d230fbaea280ee5b659c9:src/atividade01/operacaoMatematica.java
             System.out.println("Multiplicacao: " + (a * b));
         }
 
-        else if(operacao == "/") {
+        else if(operacao.equals("/")) {
             if (b != 0) {
                 System.out.println("Divisão: " + ((double) a / b));
             } else {
