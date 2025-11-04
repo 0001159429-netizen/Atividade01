@@ -1,11 +1,8 @@
 package atividade01;
-<<<<<<< HEAD
-
-public class parOuImpar {
-=======
 import java.util.Scanner;
 
 public class parOuImpar {
+
     static void main(String[] args) {
 
         Scanner sc = new  Scanner(System.in);
@@ -19,5 +16,4 @@ public class parOuImpar {
         }
         sc.close();
     }
->>>>>>> 03412e342c372cebae7d230fbaea280ee5b659c9
 }

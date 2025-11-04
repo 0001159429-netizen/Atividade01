@@ -1,7 +1,8 @@
 package atividade01;
+
 import java.util.Scanner;
 
-public class operacoesMatematicas {
+public class operacaoMatematica {
     public static void main(String[] args) {
 
         System.out.println("=== Operacoes Matematicas ===");
@@ -26,11 +27,8 @@ public class operacoesMatematicas {
             System.out.println("Subtracao: " + (a - b));
         }
 
-<<<<<<< HEAD:src/atividade01/calculadoraSimples.java
-        else if(operacao == "*") {
-=======
         else if(operacao.equals("*")) {
->>>>>>> 03412e342c372cebae7d230fbaea280ee5b659c9:src/atividade01/operacaoMatematica.java
+
             System.out.println("Multiplicacao: " + (a * b));
         }
 
@@ -47,3 +45,4 @@ public class operacoesMatematicas {
         sc.close();
     }
 }
+
