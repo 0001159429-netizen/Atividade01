@@ -1,7 +1,7 @@
 package atividade01;
 import java.util.Scanner;
 
-public class operacaoMatematica {
+public class operacoesMatematicas {
     public static void main(String[] args) {
 
         System.out.println("=== Operacoes Matematicas ===");
@@ -23,7 +23,7 @@ public class operacaoMatematica {
         else if (operacao == "-"){
             System.out.println("Subtracao: " + (a - b));
         }
-nietzsche
+
         else if(operacao == "*") {
             System.out.println("Multiplicacao: " + (a * b));
         }
